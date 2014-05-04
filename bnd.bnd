@@ -1,0 +1,4 @@
+Bundle-Version: 0.1.0
+Export-Package: org.greenscape.site
+GS-Model: org.greenscape.site.Site,org.greenscape.site.SiteTemplate,org.greenscape.site.Page
+-buildpath: org.greenscape.persistence;version=latest
