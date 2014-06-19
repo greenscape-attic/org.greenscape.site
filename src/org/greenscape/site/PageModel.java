@@ -3,7 +3,7 @@ package org.greenscape.site;
 import org.greenscape.persistence.PersistedModel;
 
 public interface PageModel extends PersistedModel {
-	String MODEL_NAME = "SitePage";
+	String MODEL_NAME = "Page";
 	String PAGE_NAME = "name";
 	String PATH_URL = "pathURL";
 	String LAYOUT_URL = "layoutURL";

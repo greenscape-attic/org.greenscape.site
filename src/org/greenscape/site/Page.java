@@ -62,4 +62,14 @@ public class Page extends PersistedModelBase implements PageModel {
 		return this;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("{");
+		builder.append("id:").append(getModelId());
+		builder.append(",name:").append(getName());
+		builder.append(",pathURL:").append(getPathURL());
+		builder.append("}");
+		return builder.toString();
+	}
 }
